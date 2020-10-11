@@ -1,0 +1,70 @@
+body{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Bangers', cursive;
+}
+
+.title{
+    text-align: center;
+    color: gold;
+    letter-spacing: 3px;
+}
+
+.pokemon-list{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    max-width: 800px;
+    margin: auto;
+}
+
+.pokemon{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+
+.versus{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+    color: gold;
+}
+
+img{
+    width: 100%;
+}
+
+.boton{
+    background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin: 1rem auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(165, 8, 8);
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    .contenedor{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+  }
